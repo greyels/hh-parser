@@ -25,8 +25,7 @@ def get_salaries(url, vacancy, area_number):
         return salaries
 
 def remove_bad_currencies(salaries):
-    salaries = list(filter(lambda item: item['currency'] in ('RUR', 'USD', 'EUR'), salaries))
-    return salaries
+    return list(filter(lambda item: item['currency'] in ('RUR', 'USD', 'EUR'), salaries))
 
 def refine_salaries(salaries):
     ref_salaries = []
