@@ -1,2 +1,2 @@
-# [WIP] hh_parser 
-HeadHunter parser (api)
+# hh_parser 
+HeadHunter parser
