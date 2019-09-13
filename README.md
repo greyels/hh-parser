@@ -1,2 +1,2 @@
-# hh_parser 
+# hh parser 
 HeadHunter parser
